@@ -1,0 +1,112 @@
+   .gap-above {
+       padding-top: 32px;
+   }
+   
+   .talk-to-hal {
+       margin-top: 9px;
+       margin-bottom: 0px;
+       color: lightgray;
+       margin-left: 20px;
+   }
+   
+   .message {
+       position: relative;
+       width: 70%;
+       height: 45px;
+       padding: 0px;
+       background: #ffffff;
+       -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+       border-radius: 10px;
+       padding: 10px;
+       margin-top: 50px;
+   }
+   
+   .bubble {
+       position: relative;
+       width: 60%;
+       height: auto;
+       padding: 0px;
+       background: #0078f6;
+       border-radius: 10px;
+       border: #0078f6 solid 10px;
+       margin-top: 5px;
+       color: white;
+       font-weight: bold;
+   }
+   
+   .bubble:after {
+       content: '';
+       position: absolute;
+       border-style: solid;
+       border: none;
+       display: block;
+       width: 0;
+       z-index: 1;
+       margin-left: 20px;
+       bottom: -15px;
+       left: 10%;
+       margin-bottom: 50px;
+   }
+   /* .bubble:before {
+       content: '';
+       position: absolute;
+       border-style: solid;
+       border-color: #d4ebff transparent;
+       display: block;
+       width: 0;
+       z-index: 0;
+       margin-left: -24px;
+       bottom: -34px;
+       left: 10%;
+   } */
+   
+   .reply {
+       position: relative;
+       width: 70%;
+       height: auto;
+       padding: 0px;
+       background: #cc4294;
+       -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+       border-radius: 10px;
+       border: #cc4294 solid 10px;
+       margin-top: 5px;
+       margin-left: 100px;
+       color: white;
+       font-weight: bold;
+   }
+   /* .reply:after {
+       content: '';
+       position: absolute;
+       border-style: solid;
+       border-width: 0 15px 15px;
+       border-color: #F1E0DC transparent;
+       display: block;
+       width: 0;
+       z-index: 1;
+       margin-left: -15px;
+       top: -15px;
+       left: 90%;
+   } */
+   
+   .head {
+       text-align: center;
+       font-family: cursive;
+       text-transform: uppercase;
+       color: yellow;
+       text-shadow: 2px 2px 2px white;
+   }
+   
+   .reply:before {
+       content: '';
+       position: absolute;
+       border-style: solid;
+       border-color: #F1E0DC transparent;
+       display: block;
+       width: 0;
+       z-index: 0;
+       margin-left: -24px;
+       top: -34px;
+       left: 90%;
+   }

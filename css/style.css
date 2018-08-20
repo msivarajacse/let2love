@@ -1,0 +1,336 @@
+[title*="Hosted on free web hosting 000webhost.com. Host your own website for FREE."] {
+    display: hidden;
+    visibility: hidden;
+}
+
+.delbtn {
+    font-size: 20px;
+    margin: 6px;
+    color: red;
+}
+
+[href*="https: //www.froala.com/wysiwyg-editor?k=u"] {
+    display: hidden !important;
+    visibility: hidden !important;
+}
+
+[style*="z-index: 9999;width: 100%; position: relative"] {
+    display: hidden !important;
+    visibility: hidden !important;
+}
+
+.lite {
+    border: 1px solid grey;
+    border-radius: 15px;
+    box-shadow: -1px 1px 11px black;
+}
+
+.litetp {
+    box-shadow: 0px 0px 5px black;
+    /* border: 1px solid grey; */
+    border-bottom-right-radius: 15px;
+    border-top: none;
+    border-bottom-left-radius: 15px;
+}
+
+h3 {
+    font-family: 'Audiowide';
+}
+
+p {
+    font-family: 'Baumans';
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.fifty {
+    margin-top: 35%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-blue {
+    color: #039be5;
+}
+
+.color2 {
+    background: #0a413c;
+}
+
+.text-white {
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.text-green {
+    color: green
+}
+
+.text-red {
+    color: red;
+}
+
+.pro-thumb {
+    /* height: 100px;
+    width: 100px; */
+    border: 3px solid grey;
+    border-radius: 15px;
+    box-shadow: 4px 1px 4px black;
+}
+
+label.center {
+    color: white;
+    font-size: 18px;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background: white;
+}
+
+.bottom-box {
+    position: fixed;
+    right: 0;
+    bottom: 20;
+    left: 0;
+    z-index: 1030;
+}
+
+.fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    background: white;
+}
+
+.fixed-side-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1031;
+    background: white;
+}
+
+.sidenav {
+    z-index: 1031
+}
+
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+
+nav {
+    background-color: none !important;
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+}
+
+.bott-nav {
+    color: black;
+    font-size: 32px;
+}
+
+.text-black {
+    color: black;
+}
+
+.nmode {
+    margin-right: 4%;
+    font-size: 28px;
+}
+
+.propic {
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+.side-pro {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+.bio {
+    color: black;
+}
+
+#gchatcon {
+    height: 10%;
+    overflow-y: scroll;
+}
+
+.g-send-btn {
+    color: #fff;
+    background-color: #26a69a;
+    cursor: pointer;
+    font-size: 28px;
+    padding-top: 8px;
+    border-radius: 50%;
+    padding-bottom: 8px;
+    padding-left: 6px;
+    padding-right: 12px;
+}
+
+.chat-box {
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+/* #pchatcon {
+    max-height: 700px;
+    overflow: auto;
+}
+
+#gchatcon {
+    max-height: 700px;
+    overflow: auto;
+} */
+
+.sndbtn {
+    color: red;
+    font-size: 24px;
+    border: 2px solid black;
+    padding: 2px 7px;
+    border-radius: 50%;
+}
+
+.sndbtnmsg {
+    color: white;
+    font-size: 24px;
+    border: 2px solid grey;
+    padding: 2px 7px;
+    background: black;
+    border-radius: 50%;
+}
+
+
+/* .night {
+    background: black !important;
+    color: white;
+} */
+
+.pcap {
+    margin-left: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.pcapimg {
+    /* margin-left: 20px; */
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.cmtsub {
+    padding: 12px !important;
+    font-size: 20px;
+    color: rgb(255, 0, 85);
+}
+
+#myInput {
+    /* visibility: hidden; */
+}
+
+.like {
+    color: black;
+    font-size: 20px !important;
+}
+
+.comment {
+    font-size: 20px !important;
+}
+
+.comment:hover {
+    color: blue !important;
+}
+
+.likee:hover {
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        color: black;
+        transform: rotate(0deg);
+    }
+    to {
+        color: blue;
+        transform: rotate(360deg);
+    }
+}
+
+span#view {
+    font-size: 23px;
+    margin: 18px;
+}
+
+b.pcap.fstyle {
+    font-family: 'Aladin' !important;
+}
+
+b.pcapimg.fstyle {
+    font-family: 'Aladin' !important;
+}
+
+.border {
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.logoabt {
+    height: 50%;
+    width: 50%;
+}
+
+.let2abt {
+    font-family: 'Sofia';
+    font-size: 31px;
+    font-weight: bold;
+}
+
+.btn-whatsapp {
+    background-color: #34af23 !important;
+}
+
+.btn-facebook {
+    background-color: #3b5998 !important;
+}
+
+.btn-instagram {
+    background-color: #c32aa3 !important;
+}
+
+.btn-linkedin {
+    background-color: #0e76a8 !important;
+}
+
+.btn-twitter {
+    background-color: #1da1f2 !important;
+}
+
+.btn-google-plus {
+    background-color: #dd4b39 !important;
+}
